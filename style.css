@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tabiat {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./tabiat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tabiat h1 {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.tabiat p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.tabiat>.button1 {
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 85vh;
+    margin-right: 5vh;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: rgb(255, 180, 40);
+}
+
+.tabiat>.button1:hover {
+    color: white;
+    background-color: orange;
+}
+
+.tabiat>.button2 {
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border: 3px solid white;
+}
+
+.tabiat>.button2:hover {
+    color: black;
+    background-color: white;
+}
+
+.tabiat h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.main {
+    width: 100%;
+    height: 40vh;
+    background-color: white;
+    display: flex;
+}
+
+.main .div1 {
+    width: 20%;
+    height: 30vh;
+    background-color: burlywood;
+    margin-left: 7%;
+    margin-top: -10vh;
+}
+
+.main .div1 .icon {
+    width: 50%;
+    height: 50%;
+    background-image: url(./icon.png);
+    margin: 20px 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 10px;
+
+}
+
+.main .div2 {
+    width: 20%;
+    margin-top: -10vh;
+    height: 30vh;
+    margin-left: 2%;
+    background-color: burlywood;
+}
+
+.main .div3 {
+    width: 20%;
+    margin-top: -10vh;
+    height: 30vh;
+    margin-left: 2%;
+    background-color: burlywood;
+}
+
+.main .div4 {
+    width: 20%;
+    margin-top: -10vh;
+    margin-left: 2%;
+    height: 30vh;
+    background-color: burlywood;
+}
+
+.yangi {
+    width: 100%;
+    height: 25vh;
+    background-color: white;
+}
+
+.yangi h1 {
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+
+.yangi p {
+    text-align: center;
+    font-size: 23px;
+}
+
+.katta {
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    padding-left: 5%;
+}
+
+.katta .rasm1 {
+    width: 25%;
+    height: 50vh;
+    background-image: url(./otirish.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+}
+
+.katta .rasm2 {
+    width: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-image: url(./olov.jpg);
+    margin-left: 5%;
+}
+
+.katta .rasm3 {
+    width: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-image: url(./gulhan.jpg);
+    margin-left: 5%;
+}
+
+.katta1 {
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    padding-left: 5%;
+}
+
+.katta1 .rasm4 {
+    width: 25%;
+    height: 50vh;
+    background-image: url(./chodr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+}
+
+.katta1 .rasm5 {
+    width: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-image: url(./qora.jpg);
+    margin-left: 5%;
+}
+
+.katta1 .rasm6 {
+    width: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-image: url(./dostlar.jpg);
+    margin-left: 5%;
+}
+
+.yozuv {
+    width: 100%;
+    height: 25vh;
+    background-color: white;
+}
+
+.yozuv > h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.yozuv button {
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 670px;
+    font-weight: bold;
+    color: white;
+    background-color: burlywood;
+    transition: 0.3s;
+}
+
+.yozuv button:hover {
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 670px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(190, 151, 99);
+}
+
+.find{
+    width: 100%;
+    height: 150vh;
+    background-color: burlywood;
+}
+.find h1 {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 60px;
+    padding-bottom: 50px;
+
+}
+.find p{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    
+}
+.best{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/1244.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    margin-left: 200px;
+
+
+}
+.best .lake{
+    width:300px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.44);
+}
+.best .lake p{
+    font-size: 20px;
+   
+}
+.best .lake h2{
+    color: white;
+    text-align: center;
+}
+.best1{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    margin-left: 100px;
+
+
+}
+.best1 .lake1{
+    width:300px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.44);
+}
+.best1 .lake1 p{
+    font-size: 20px;
+   
+}
+.best1 .lake1 h2{
+    color: white;
+    text-align: center;
+}
+.redmi{
+    display: flex;
+}
+.best2{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/7894.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    margin-left: 100px;
+
+
+}
+.best2 .lake2{
+    width:300px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.44);
+}
+.best2 .lake2 p{
+    font-size: 20px;
+   
+}
+.best2 .lake2 h2{
+    color: white;
+    text-align: center;
+}
+.apple{
+    display: flex;
+}
+.best3{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/Untitled-16.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    margin-left: 200px;
+    margin-top: 20px;
+
+
+}
+.best3 .lake3{
+    width:300px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.44);
+}
+.best3 .lake3 p{
+    font-size: 20px;
+   
+}
+.best3 .lake3 h2{
+    color: white;
+    text-align: center;
+}
+.best4{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/Untitled-164.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+
+}
+.best4 .lake4{
+    width:300px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.44);
+}
+.best4 .lake4 p{
+    font-size: 20px;
+   
+}
+.best4 .lake4 h2{
+    color: white;
+    text-align: center;
+}
+.best5{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/79.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.best5 .lake5{
+    width:300px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.44);
+}
+.best5 .lake5 p{
+    font-size: 20px;
+}
+
+.best5 .lake5 h2{
+    color: white;
+    text-align: center;
+}
+
+.salom1 {
+    padding-top: 50px;
+}
